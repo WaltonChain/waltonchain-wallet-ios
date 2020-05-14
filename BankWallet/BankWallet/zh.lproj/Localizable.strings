@@ -1,0 +1,402 @@
+"coin.BTC" = "Bitcoin";
+"coin.BCH" = "Bitcoin Cash";
+"coin.ETH" = "Ethereum";
+
+"button.ok" = "确定";
+"button.cancel" = "取消";
+"button.close" = "关闭";
+"button.confirm" = "确认";
+"button.done" = "完成";
+"button.restore" = "恢复";
+"button.next" = "下一步";
+"button.share" = "分享";
+"button.sync" = "同步";
+"button.paste" = "粘帖";
+"button.backup" = "备份";
+"button.copy" = "复制";
+"button.back" = "返回";
+
+"alert.copied" = "已复制";
+"alert.no_internet" = "没有网络";
+"alert.no_fee" = "错误费用";
+"alert.network_issue" = "网络问题。请稍后再试\n\n";
+"alert.unknown_error" = "未知错误";
+
+"n/a" = "不可用";
+
+"biometric_usage_reason" = "解锁钱包";
+
+// Access Camera
+
+"access_camera.message" = "钱包需要接入照相机扫描二维码\n\n请在”设置”-“Unstoppable”中打开";
+"access_camera.settings" = "设置";
+
+// Welcome
+
+"welcome.new_wallet" = "创建钱包";
+"welcome.restore_wallet" = "恢复钱包";
+"welcome.version" = "版本%@";
+
+// Restore
+
+"restore.title" = "恢复自";
+"restore.enter_key" = "输入密钥";
+"restore.item_title" = "%@钱包";
+"restore.description" = "要恢复现有钱包，您必须输入该钱包的私钥。\n\n恢复钱包后，您可以通过应用的“安全”设置中的“管理钱包”恢复其他钱包。";
+"restore.words.description" = "为Waltonchain钱包输入64位私钥或12个单词的助记词。使用助记词时单词必须以正确的顺序输入并用空格分隔。";
+"restore.eos.description" = "输入 %@ 钱包的私钥。";
+"restore.validation_failed" = "密钥不正确";
+"restore.placeholder.account_name" = "Account Name";
+"restore.placeholder.private_key" = "Active Private Key";
+
+// Coin Settings
+
+"coin_settings.enable_button" = "启用";
+"coin_settings.derivation.title" = "选择地址格式";
+"coin_settings.derivation.description_bip44" = "更旧（以1开头...）";
+"coin_settings.derivation.description_bip49" = "流行（以3开头...）";
+"coin_settings.derivation.description_bip84" = "最新（以bc1开头...）";
+"coin_settings.derivation.description_create" = "此设置控制着此钱包中比特币的地址格式。如果不确定，我们建议使用BIP49。";
+"coin_settings.derivation.description_restore" = "选择您尝试恢复的钱包中的比特币的地址格式。";
+"coin_settings.sync_mode.title" = "恢复参数";
+"coin_settings.sync_mode.fast.description" = "0 小时 (推荐)";
+"coin_settings.sync_mode.slow.description" = "1- 12 小时";
+"coin_settings.sync_mode.description" = "选择Unstoppable应用于下载您的余额和交易的源。\n\n水平系统%@API：";
+
+// Backup
+
+"backup.close" = "关闭";
+"backup.backup_required" = "需要备份";
+"backup.private_key" = "私钥";
+
+"backup.intro.title_backup" = "备份";
+"backup.intro.title_show" = "显示助记词或私钥";
+"backup.intro.subtitle" = "如果您的手机出现丢失、被盗或损坏等情况，那么在下一步显示的助记词或私钥将是恢复您资金的唯一方法。\n\n确保不会有任何人看到您的屏幕。\n\n此助记词或私钥控制的币：%@";
+"backup.intro.later" = "稍后";
+"backup.intro.backup_now" = "备份";
+"backup.intro.show_key" = "显示助记词或私钥";
+
+"backup.words.confirmation_description" = "输入您%@助记词中的文字";
+
+"backup.eos.account_name" = "Account Name";
+"backup.eos.active_private_key" = "Active Private Key";
+"backup.eos.hint" = "如果您有使用任何剪贴板管理应用或其他可存取剪贴板数据的应用，那么适用”复制“操作复制您的密钥将会带来风险。";
+"error.send_eos.self_transfer" = "无法将代币转入自己的账户";
+"error.send_eos.account_not_exist" = "目标账户不存在";
+"error.send_eos.insufficient_ram" = "您的EOS账户没有足够的RAM来发送此令牌。您必须增加RAM才能继续。";
+"error.send_eos.unknown" = "出错了：%@";
+"error.send_ethereum.wrong_parameters" = "错误参数";
+"error.send_binance.memo_required" = "收款人要求在转账交易中包含非空的备注";
+"error.send_binance.only_digits_allowed" = "要求备注仅包含数字";
+
+"backup.confirmation.title" = "正在检查...";
+
+"words_validator.empty_words" = "并非所有单词都输入\n\n";
+"words_validator.invalid_confirmation" = "文字不匹配";
+
+// Balance
+
+"balance.title" = "余额";
+"balance.tab_bar_item" = "余额";
+"balance.send" = "发送​​";
+"balance.deposit" = "接收";
+"balance.rate_per_coin" = "%@ / %@";
+"balance.syncing" = "正在同步...";
+"balance.syncing_percent" = "正在同步... %@";
+"balance.synced_through" = "直至：%@";
+"balance.add_coin" = "添加代币";
+"balance.sort.header" = "排序方式";
+"balance.sort.valueHighToLow" = "余额";
+"balance.sort.az" = "名称";
+"balance.sort.24h_change" = "24小时价格（%）";
+
+// Deposit
+
+"deposit.receive_coin" = "收到%@";
+"deposit.your_address" = "您的地址";
+"deposit.your_account" = "您的账户";
+"receive_alert.not_backed_up_description" = "您必须在接收%@之前先备份%@钱包。";
+
+// Send
+
+"send.title" = "发送%@";
+"send.amount_placeholder" = "金额";
+"send.amount_error.min_required_balance" = "最小要求剩余 %@";
+"send.address_placeholder" = "地址";
+"send.account_placeholder" = "账户";
+"send.fee" = "费用";
+"send.tx_speed" = "交易速度";
+"send.tx_speed_low" = "低";
+"send.tx_speed_medium" = "中";
+"send.tx_speed_high" = "高";
+"send.tx_duration" = "时长";
+"send.duration.instant" = "即时";
+"send.duration.within" = "在%@内";
+"send.duration.hours" = "%d小时。";
+"send.duration.minutes" = "%d分钟。";
+"send.available_balance" = "可用余额";
+"send.max_button" = "最多";
+"send.next_button" = "下一步";
+"send.error.invalid_address" = "错误地址";
+"send.hodler_locktime" = "时间锁定";
+"send.hodler_locktime_hour" = "1 小时";
+"send.hodler_locktime_month" = "1 个月";
+"send.hodler_locktime_half_year" = "6 个月";
+"send.hodler_locktime_year" = "1 年";
+"send.hodler_locktime_off" = "关";
+"send.hodler_error.unsupported_address" = "时间锁定只能和P2PKH地址（以1开头）一起使用";
+
+"send.confirmation.title" = "确认";
+"send.confirmation.memo_placeholder" = "Memo";
+"send.confirmation.total" = "总额";
+"send.confirmation.send_button" = "发送​​";
+"send.amount_error.balance" = "余额%@";
+"send.amount_error.maximum_amount" = "最大金额 %@";
+"send.amount_error.minimum_amount" = "最小金额 %@";
+"send.amount_error.min_required_balance" = "最小要求剩余 %@";
+"send.token.insufficient_fee_alert" = "%@（%@）的交易费用以%@支付。您需要%@。";
+
+"send.lock_time" = "时间锁定";
+// Transactions
+
+"transactions.title" = "交易";
+"transactions.tab_bar_item" = "交易";
+"transactions.filter_all" = "全部";
+"transactions.empty_text" = "您还没有任何待定或成功的交易";
+"transactions.pending" = "待处理";
+"transactions.receiving" = "正在接收";
+"transactions.failed" = "失败";
+"transactions.sending" = "正在发送";
+
+// Transaction Info
+
+"tx_info.title" = "交易";
+"tx_info.status" = "状态";
+"tx_info.status.pending" = "待处理";
+"tx_info.status.confirmed" = "已确认";
+"tx_info.status.failed" = "失败";
+"tx_info.from_hash" = "发件人";
+"tx_info.transaction_id" = "交易ID";
+"tx_info.to_hash" = "接收人";
+"tx_info.button_verify" = "验证";
+"tx_info.rate" = "历史价格";
+"tx_info.fee" = "费用";
+"tx_info.to_self_note" = "交易已发送至自有地址";
+"tx_info.double_spent_note" = "双重支付风险！";
+"tx_info.locked_until" = "锁定至 %@";
+"tx_info.recipient_hash" = "收款人";
+
+// Full Info
+
+"full_info.title" = "交易";
+"full_info.time" = "时间";
+"full_info.block" = "区块";
+"full_info.confirmations" = "确认";
+"full_info.size" = "大小";
+"full_info.fee" = "费用";
+"full_info.rate" = "价格";
+"full_info.inputs" = "输入";
+"full_info.outputs" = "输出";
+"full_info.source" = "源";
+"full_info.contract" = "合同";
+"full_info.from" = "发件人";
+"full_info.to" = "接收人";
+"full_info.amount" = "金额";
+"full_info.nonce" = "Nonce";
+"full_info.status" = "状态";
+"full_info.memo" = "Memo";
+"full_info.cpu" = "CPU Usage";
+"full_info.net" = "Net Usage";
+"full_info.milli_seconds" = "%@ μs";
+"full_info.bytes" = "%@ Bytes";
+
+"full_info.gas_limit" = "Gas Limit ";
+"full_info.gas_used" = "Gas Used";
+"full_info.gas_price" = "Gas Price";
+
+"full_info.source.title" = "源";
+"full_info.source.online" = "在线";
+"full_info.source.offline" = "离线";
+
+"full_info.error.server_offline" = "离线";
+"full_info.error.transaction_not_found" = "无法在区块链上找到交易";
+"full_info.error.retry" = "重试";
+"full_info.error.change_source" = "更改源";
+"full_info.no_address" = "空地址";
+
+// Settings
+
+"settings.title" = "设置";
+"settings.tab_bar_item" = "设置";
+"settings.security_center" = "安全中心";
+"settings.manage_coins" = "管理Coins";
+"settings.experimental_features" = "实验性功能";
+"settings.notifications" = "通知";
+"settings.base_currency" = "基本货币";
+"settings.language" = "语言";
+"settings.about" = "关于";
+"settings.tell_friends" = "分享给好友";
+"settings.contact" = "报告问题";
+"settings.light_mode" = "换肤";
+"settings.info_title" = "Waltonchain";
+"settings.info_subtitle" = "Based on Unstoppable Wallet\nCredits to Horizontal Systems (https://github.com/horizontalsystems) \n© 2020 Walton Chain(HK) Development Co., Ltd.";
+
+// Settings -> Notifications
+
+"settings_notifications.title" = "通知";
+"settings_notifications.description" = "为您要监察的代币设置价格变更警报。\n\n当价格的变化在24小时内超出选定的临界值时，您将收到警报。";
+"settings_notifications.alert_off" = "关";
+"settings.notifications.deactivate_all" = "全部停用";
+"settings.notifications.disabled_text" = "已禁用Unstoppable钱包应用通知。您必须开启通知并允许后台应用刷新才能接收价格变更警报。";
+"settings.notifications.settings_button" = "在设置中开启";
+
+// Settings -> Manage Wallet
+
+"manage_coins.title" = "代币管理器";
+"manage_coins.add_coin.title" = "添加%@ ";
+"manage_coins.add_coin.subtitle" = "%@钱包";
+"manage_coins.add_coin.text" = "您没有可恢复%@（%@）的钱包。应用可以为您生成新的钱包。使用下方的“创建”按钮生成新钱包。\n\n您将可以为以下代币使用新钱包：%@。\n\n如果您已有钱包，那么您也可以使用现有的%@钱包。为此使用“恢复”按钮。";
+"manage_coins.add_coin.create" = "创建";
+"manage_coins.add_coin.restore" = "恢复";
+
+// Settings -> Experimental Features
+
+"settings.experimental_features.title" = "实验性";
+"settings.experimental_features.description" = "以下功能为实验性，应谨慎使用。虽然我们已使用自己的加密货币资金对这些功能进行了彻底测试，但是我们不保证它们在所有情况下都能如常工作。";
+"settings.experimental_features.bitcoin_hodling" = "时间锁定";
+
+// Settings -> Experimental Features -> Bitcoin HODLing
+
+"settings.bitcoin_hodling.title" = "时间锁定";
+"settings.bitcoin_hodling.lock_time" = "激活";
+"settings.bitcoin_hodling.description" = "让您汇出在指定日期前无法消费的比特币。\n\n此交易的收款人应使用Unstoppable钱包。\n\n只有Unstoppable钱包能够正确识别此类在比特币网络上的交易并让收款人在锁定期限结束后消费那些比特币。\n\n如果您是持有人，您可以使用此功能通过向自己发送此类交易的方式来强制自己持有比特币。\n\n作为实验性功能，每次交易的最大金额限制为0.5 BTC。";
+
+// Settings -> About
+
+"settings_about.title" = "关于";
+"settings_about.app_title" = "Waltonchain";
+"settings_about.app_subtitle" = "Decentralized Wallet";
+"settings_about.terms_privacy_subtitle" = "条款和隐私：";
+"settings_about.terms_privacy_text" = "此应用是一款点对点应用。其运作不依赖于任何网络服务器或技术支持人员。\n\n只要有网络它就能工作。没有实体能够阻止此应用工作或者阻止任何人使用它。\n\n您的资金安全地保存在电话上，而不是其他地方。\n\n您的职责是备份密钥并保证其安全。绝不要向任何人展示密钥。如果密钥丢失、遗忘或被盗，您的资金将会被拥有密钥的人使用。\n\n不要对您的电话进行越狱，不要安装来源不明（不可靠）的应用，不要把您的电话交给不可靠的人，保证电话的操作系统是最新版本。您钱包的安全将取决于此。\n\n支持此应用的完整代码从一开始就对公众监督开放。我们付出了最大努力以开发最安全的分散式钱包，但这不保证其中不会存在意外的软件问题。尽管如此，此钱包很可能还是比市面上的其他智能手机钱包更为安全。\n\n像货币汇率等通用非私有应用数据将保存在分散式存储系统（IPFS)。";
+
+// Settings -> Tell Friends
+
+"settings_tell_friends.text" = "Waltonchain Wallet——我强烈推荐的一款加密货币钱包";
+
+// Settings -> Security
+
+"settings_security.title" = "安全中心";
+"settings_security.manage_accounts" = "管理钱包";
+"settings_security.passcode" = "密码";
+"settings_security.change_pin" = "编辑密码";
+"settings_security.touch_id" = "指纹识别";
+"settings_security.face_id" = "面部识别";
+"security_settings.delete_alert_button" = "从手机中删除";
+
+// Settings -> Contact
+
+"settings.contact.title" = "报告问题";
+"settings.contact.app_status" = "应用状态";
+"settings.contact.email" = "电子邮箱";
+"settings.contact.telegram_wallet" = "电报（钱包帮助）";
+"settings.contact.telegram_developers" = "电报（开发者）";
+
+// Manage Keys
+
+"settings_manage_keys.title" = "管理钱包";
+"settings_manage_keys.item_title" = "%@钱包";
+"settings_manage_keys.add_wallet" = "添加钱包";
+"settings_manage_keys.description" = "在下方突出显示的就是您的活跃钱包，每一个钱包负责不同的加密货币集合。\n\n您应该通过备份每一个突出显示的钱包的私钥对其进行备份。如果您的手机出现丢失、被盗、损坏等情况，该密钥是恢复您资金的唯一方法。";
+"settings_manage_keys.delete" = "删除";
+"settings_manage_keys.backup" = "备份";
+"settings_manage_keys.show" = "显示";
+"settings_manage_keys.create" = "创建";
+"settings_manage_keys.restore" = "恢复";
+"settings_manage_keys.delete.cant_delete" = "您应该在将此钱包的私钥从该手机删除之前先对其进行备份。";
+"settings_manage_keys.delete.title" = "删除钱包";
+"settings_manage_keys.delete.confirmation_remove" = "该操作将从此设备删除%@钱包。";
+"settings_manage_keys.delete.confirmation_disable" = "将被禁用的代币：%@";
+"settings_manage_keys.delete.confirmation_loose" = "如果您尚未对此钱包备份私钥，您将失去您的资金。";
+"error.cant_create_wallet" = "Unstoppable此时无法创建新的%s钱包。您只可以恢复现有的钱包。";
+"error.invalid_eos_key" = "错误密钥";
+"error.invalid_eos_account" = "无效账户";
+
+// Set PIN
+
+"set_pin.title" = "密码";
+"set_pin.info" = "您的密码将用于解锁钱包和发送资金";
+"set_pin.confirm.info" = "确认";
+"set_pin.wrong_confirmation" = "密码不匹配。请重试。";
+
+// Edit PIN
+
+"edit_pin.title" = "编辑密码";
+"edit_pin.unlock_info" = "当前密码";
+"edit_pin.new_pin_info" = "新密码";
+
+// Unlock PIN
+
+"unlock_pin.info" = "密码";
+"unlock_pin.cant_save_pin" = "哎哟！我们无法保存您的密码，请尽快与我们联系，谢谢。";
+"unlock_pin.blocked_until" = "禁用至: %@";
+"rate_list.updated" = "已更新";
+
+//NumPad
+
+"numpad_2" = "A B C";
+"numpad_3" = "D E F";
+"numpad_4" = "G H I";
+"numpad_5" = "J K L";
+"numpad_6" = "M N O";
+"numpad_7" = "P Q R S";
+"numpad_8" = "T U V";
+"numpad_9" = "W X Y Z";
+
+// Key Types
+
+"chart.title" = "%@ 价格";
+"chart.time_duration.day" = "1天";
+"chart.time_duration.week" = "7天";
+"chart.time_duration.month" = "1个月";
+"chart.time_duration.month3" = "3个月";
+"chart.time_duration.halyear" = "6个月";
+"chart.time_duration.year" = "1年";
+"chart.time_duration.year2" = "2年";
+
+"chart.market_cap" = "市场价值";
+"chart.market_cap.thousand" = "%@千";
+"chart.market_cap.million" = "%@百万";
+"chart.market_cap.billion" = "%@十亿";
+"chart.market_cap.trillion" = "%@万亿";
+"chart.volume" = "量";
+"chart.circulation" = "流通中";
+"chart.max_supply" = "供应总额";
+"chart.error.not_available" = "无可用图表";
+"chart.selected.price" = "价格";
+"chart.selected.volume" = "量";
+
+// Create Wallet
+
+"create_wallet.title" = "新钱包";
+"create_wallet.create_button" = "创建";
+
+// Select Coins
+
+"select_coins.choose_crypto" = "选择加密货币";
+"select_coins.next_button" = "继续";
+
+"price_notification.up" = "上";
+"price_notification.down" = "下";
+"price_notification.multi_title" = "通知";
+
+// Lock Info
+
+"lock_info.title" = "时间锁定";
+"lock_info.text" = "汇款人通过将在所显示日期失效的消费锁定汇出这些资金。\n\n无需担心，收到的比特币已经属于您，但在锁定期限结束前，您无法在比特币网络上消费它们。";
+
+// Double Spend Info
+
+"double_spend_info.title" = "双复支付";
+"double_spend_info.header" = "双重支付风险！区块链上还有另一笔交易试图支付这笔交易所使用的投入。 网络只接受一笔交易。";
+"double_spend_info.this_hash" = "此Tx";
+"double_spend_info.conflicting_hash" = "冲突Tx";

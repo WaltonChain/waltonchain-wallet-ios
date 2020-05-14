@@ -1,0 +1,402 @@
+"coin.BTC" = "Bitcoin";
+"coin.BCH" = "Bitcoin Cash";
+"coin.ETH" = "Etereum";
+
+"button.ok" = "Tamam";
+"button.cancel" = "İptal";
+"button.close" = "Kapat";
+"button.confirm" = "Onayla";
+"button.done" = "Bitti";
+"button.restore" = "Geri Yükle";
+"button.next" = "İleri";
+"button.share" = "Paylaş";
+"button.sync" = "Eşitle";
+"button.paste" = "Yapıştır";
+"button.backup" = "Yedekle";
+"button.copy" = "Kopyala";
+"button.back" = "Geri";
+
+"alert.copied" = "Kopyalandı";
+"alert.no_internet" = "Internet Bağlantısı Yok";
+"alert.no_fee" = "Yanlış Masraf";
+"alert.network_issue" = "Ağ sorunu. Tekrar deneyin.";
+"alert.unknown_error" = "Bilinmeyen Hata";
+
+"n/a" = "N/A";
+
+"biometric_usage_reason" = "Cüzdan kilidini aç";
+
+// Access Camera
+
+"access_camera.message" = "Unstoppable Cüzdan, QR Kodu okuyabilmek için Kameranıza ihtiyaç duyuyor.\n\nAyarlar - > Unstoppable'a gidip kamera erişimine izin verin.";
+"access_camera.settings" = "Ayarlar";
+
+// Welcome
+
+"welcome.new_wallet" = "Cüzdan Oluştur";
+"welcome.restore_wallet" = "Cüzdanı Geri Yükle";
+"welcome.version" = "Sürüm %@";
+
+// Restore
+
+"restore.title" = "Bundan geri yükle";
+"restore.enter_key" = "Anahtarı girin";
+"restore.item_title" = "%@ Cüzdanı";
+"restore.description" = "Cüzdanı geri yüklemek için o cüzdanın gizli anahtarını girmelisiniz.\n\nDaha fazla cüzdanı geri yüklemek için bir cüzdanı geri yükledikten sonra Ayarlardaki Anahtarları Yönet bölümüne gidin.";
+"restore.words.description" = "Standart cüzdan için 64 bit özel anahtarınızı veya 12 kelimelik anımsatıcı ifadenizi girin. Anımsatıcı cümlenin sözcükleri doğru sırada girilmeli ve boşluklarla ayrılmalıdır.";
+"restore.eos.description" = "%@ cüzdanı için kişisel anahtarınızı girin.";
+"restore.validation_failed" = "Yanlış Anahtar";
+"restore.placeholder.account_name" = "Account Name";
+"restore.placeholder.private_key" = "Active Private key";
+
+// Coin Settings
+
+"coin_settings.enable_button" = "Etkinleştir";
+"coin_settings.derivation.title" = "Adres formatını seçin";
+"coin_settings.derivation.description_bip44" = "Eski (1... ile başlar)";
+"coin_settings.derivation.description_bip49" = "Popüler (3... ile başlar)";
+"coin_settings.derivation.description_bip84" = "Yeni (bc1... ile başlar)";
+"coin_settings.derivation.description_create" = "Bu ayar, bu cüzdandaki Bitcoin adres formatını kontrol eder. Emin değilseniz BIP49 kullanmanızı öneririz.";
+"coin_settings.derivation.description_restore" = "Geri yüklemeye çalıştığınız cüzdandaki Bitcoin için adres formatını seçin.";
+"coin_settings.sync_mode.title" = "Geri Yükleme Ayarları";
+"coin_settings.sync_mode.fast.description" = "0-2 saat, Tavsiye edilen";
+"coin_settings.sync_mode.slow.description" = "1-12 saat";
+"coin_settings.sync_mode.description" = "Unstoppablenin bakiyenizi ve işlemlerinizi indirmek için kullanması gereken kaynağı seçin.\n\nHorizontal Systems %@ API:";
+
+// Backup
+
+"backup.close" = "Kapat";
+"backup.backup_required" = "Yedekleme Gerekli";
+"backup.private_key" = "Özel Anahtar";
+
+"backup.intro.title_backup" = "Yedekle";
+"backup.intro.title_show" = "Anahtar veya İfadeyi Göster";
+"backup.intro.subtitle" = "Daha sonra gösterilecek özel anahtar veya anımsatıcı ifade, telefonunuz hiç kaybolursa, çalınırsa, bozulursa, paranızı geri yüklemenin tek yoludur.\n\nEkranınızı kimsenin izlemediğinden emin olun.\n\n Bu anahtar veya cümle ile kontrol edilen paralar: %@";
+"backup.intro.later" = "Sonra";
+"backup.intro.backup_now" = "Yedekle";
+"backup.intro.show_key" = "Anahtar veya İfadeyi Göster";
+
+"backup.words.confirmation_description" = "%@ Anahtarınızda ki kelimeleri girin";
+
+"backup.eos.account_name" = "Account Name";
+"backup.eos.active_private_key" = "Active Private Key";
+"backup.eos.hint" = "Anahtarınızı \"Kopyala\" eylemiyle kopyalamanız anahtarınızın pano yönetisine ve panoya erişimi olan diğer uygulamalara sızma riskini taşır.";
+"error.send_eos.self_transfer" = "Bu kripto para kendi hesabınaza aktarılamıyor";
+"error.send_eos.account_not_exist" = "Hedef hesap yok";
+"error.send_eos.insufficient_ram" = "EOS hesabınızda bu kripto parayı göndermek için yeterli RAM bulunmuyor. Devam etmek için EOS RAM hissenizi arttırmak gerekiyor.";
+"error.send_eos.unknown" = "Beklenmeyen bir hata oluştu: %@";
+"error.send_ethereum.wrong_parameters" = "Yanlış parametreler";
+"error.send_binance.memo_required" = "Aktarım işleminde alıcı boş olmayan not istiyor";
+"error.send_binance.only_digits_allowed" = "Notun yalnızca rakam içermesini gerektirir";
+
+"backup.confirmation.title" = "Kontrol etme ...";
+
+"words_validator.empty_words" = "Her kelime girilmedi";
+"words_validator.invalid_confirmation" = "Kelimeler eşleşmiyor";
+
+// Balance
+
+"balance.title" = "Bakiye";
+"balance.tab_bar_item" = "Bakiye";
+"balance.send" = "Gönder";
+"balance.deposit" = "Al";
+"balance.rate_per_coin" = "%@ = 1 %@";
+"balance.syncing" = "Eşitleniyor...";
+"balance.syncing_percent" = "Senkronize ediliyor... %@";
+"balance.synced_through" = "%@ kadar";
+"balance.add_coin" = "Para Ekle";
+"balance.sort.header" = "Sıralama şekli";
+"balance.sort.valueHighToLow" = "Bakiye";
+"balance.sort.az" = "İsim";
+"balance.sort.24h_change" = "24 saat Fiyat(%)";
+
+// Deposit
+
+"deposit.receive_coin" = "%@ al";
+"deposit.your_address" = "Adresiniz";
+"deposit.your_account" = "Senin Hesabın";
+"receive_alert.not_backed_up_description" = "Öncelikle %@ cüzdanınızı yedeklemeniz gerekiyor daha sonra %@ kripto parasını alabilirsiniz.";
+
+// Send
+
+"send.title" = "%@ gönder";
+"send.amount_placeholder" = "Tutar";
+"send.amount_error.min_required_balance" = "Min. gerekli bakiye %@";
+"send.address_placeholder" = "Adres";
+"send.account_placeholder" = "Account";
+"send.fee" = "Masraf";
+"send.tx_speed" = "İşlem hızı";
+"send.tx_speed_low" = "Düşük";
+"send.tx_speed_medium" = "Orta";
+"send.tx_speed_high" = "Yüksek";
+"send.tx_duration" = "Süre";
+"send.duration.instant" = "Anlık";
+"send.duration.within" = "%@ içinde";
+"send.duration.hours" = "%d sa.";
+"send.duration.minutes" = "%d dk.";
+"send.available_balance" = "Mevcut Bakiye";
+"send.max_button" = "Azami";
+"send.next_button" = "İleri";
+"send.error.invalid_address" = "Geçersiz Adres";
+"send.hodler_locktime" = "TimeLock";
+"send.hodler_locktime_hour" = "1 saat";
+"send.hodler_locktime_month" = "1 ay";
+"send.hodler_locktime_half_year" = "6 ay";
+"send.hodler_locktime_year" = "1 yıl";
+"send.hodler_locktime_off" = "Kapat";
+"send.hodler_error.unsupported_address" = "Zaman kilitleme sadece P2PKH adresleriyle çalışır (1 ile başlayan)";
+
+"send.confirmation.title" = "Onayla";
+"send.confirmation.memo_placeholder" = "Memo";
+"send.confirmation.total" = "Toplam";
+"send.confirmation.send_button" = "Gönder";
+"send.amount_error.balance" = "%@ Bakiye";
+"send.amount_error.maximum_amount" = "Maksimum miktar %@";
+"send.amount_error.minimum_amount" = "Minimum miktar %@";
+"send.amount_error.min_required_balance" = "Min. gerekli bakiye %@";
+"send.token.insufficient_fee_alert" = "%@ (%@) için ișlem ücreti %@ hesabından ödenir. Asgari %@ gerekiyor.";
+
+"send.lock_time" = "TimeLock";
+// Transactions
+
+"transactions.title" = "Hesap işlemleri";
+"transactions.tab_bar_item" = "Hesap işlemleri";
+"transactions.filter_all" = "Hepsi";
+"transactions.empty_text" = "Henüz herhangi bir bekleyen veya geçmiş işlem yok";
+"transactions.pending" = "Bekleyen";
+"transactions.receiving" = "Alınıyor";
+"transactions.failed" = "Başarısız";
+"transactions.sending" = "Gönderiliyor";
+
+// Transaction Info
+
+"tx_info.title" = "Hesap işlemi";
+"tx_info.status" = "Durum";
+"tx_info.status.pending" = "Devam ediyor";
+"tx_info.status.confirmed" = "Onaylandı";
+"tx_info.status.failed" = "Başarısız";
+"tx_info.from_hash" = "Gönderen";
+"tx_info.transaction_id" = "İşlem ID'si";
+"tx_info.to_hash" = "Alan";
+"tx_info.button_verify" = "Doğrula";
+"tx_info.rate" = "Geçmiş Kur";
+"tx_info.fee" = "Ücret";
+"tx_info.to_self_note" = "Bu işlem kendi adresine gönderildi";
+"tx_info.double_spent_note" = "Çifte Harcama Riski Var!";
+"tx_info.locked_until" = "Şu zamana kadar kitlendi %@";
+"tx_info.recipient_hash" = "Alıcı";
+
+// Full Info
+
+"full_info.title" = "Hesap işlemi";
+"full_info.time" = "Tarih";
+"full_info.block" = "Blok numarası";
+"full_info.confirmations" = "Onaylama";
+"full_info.size" = "Boyut";
+"full_info.fee" = "Masraf";
+"full_info.rate" = "Oran";
+"full_info.inputs" = "Girişler";
+"full_info.outputs" = "Çıkışlar";
+"full_info.source" = "Kaynak";
+"full_info.contract" = "Sözleşme";
+"full_info.from" = "Gönderen";
+"full_info.to" = "Alan";
+"full_info.amount" = "Tutar";
+"full_info.nonce" = "Nonce";
+"full_info.status" = "Durum";
+"full_info.memo" = "Memo";
+"full_info.cpu" = "CPU Usage";
+"full_info.net" = "Net Usage";
+"full_info.milli_seconds" = "%@ μs";
+"full_info.bytes" = "%@ Bytes";
+
+"full_info.gas_limit" = "Gas Limit";
+"full_info.gas_used" = "Gas Used";
+"full_info.gas_price" = "Gas Price";
+
+"full_info.source.title" = "Kaynak";
+"full_info.source.online" = "çevrimiçi";
+"full_info.source.offline" = "çevrimdışı";
+
+"full_info.error.server_offline" = "çevrimdışı";
+"full_info.error.transaction_not_found" = "Işlem Blockchain'de bulunamadı";
+"full_info.error.retry" = "Yeniden Dene";
+"full_info.error.change_source" = "Kaynağı Değiştir";
+"full_info.no_address" = "Boş adres";
+
+// Settings
+
+"settings.title" = "Ayarlar";
+"settings.tab_bar_item" = "Ayarlar";
+"settings.security_center" = "Güvenlik Merkezi";
+"settings.manage_coins" = "Kripto Paraları Yönet";
+"settings.experimental_features" = "Deneysel Özellikler";
+"settings.notifications" = "Bildirimler";
+"settings.base_currency" = "Para birimi";
+"settings.language" = "Dil";
+"settings.about" = "Hakkında";
+"settings.tell_friends" = "Arkadaşlarına bahset";
+"settings.contact" = "Iletişim";
+"settings.light_mode" = "Aydınlık mod";
+"settings.info_title" = "Waltonchain";
+"settings.info_subtitle" = "Based on Unstoppable Wallet\nCredits to Horizontal Systems (https://github.com/horizontalsystems) \n© 2020 Walton Chain(HK) Development Co., Ltd.";
+
+// Settings -> Notifications
+
+"settings_notifications.title" = "Bildirimler";
+"settings_notifications.description" = "İzlemek istediğiniz paralar için fiyat değişikliği uyarılarını ayarlayın.\n\nSon 24 saatteki fiyat değişikliği seçilen eşiği aştığında uyarılırsınız.";
+"settings_notifications.alert_off" = "Kapat";
+"settings.notifications.deactivate_all" = "Etkisizleştir";
+"settings.notifications.disabled_text" = "Unstoppable Cüzdan uygulaması için bildirimler devre dışı bırakıldı. Fiyat değişikliği uyarıları alabilmek için Bildirimler'i açmanız ve arka plan uygulaması yenilemesine izin vermeniz gerekir.";
+"settings.notifications.settings_button" = "Ayarlardan aç";
+
+// Settings -> Manage Wallet
+
+"manage_coins.title" = "Kripto Para yöneticisi";
+"manage_coins.add_coin.title" = "%@ ekle ";
+"manage_coins.add_coin.subtitle" = "%@ Cüzdanı";
+"manage_coins.add_coin.text" = "%@ (%@) saklayabilen bir cüzdanınız yok. Uygulamanın sizin için yeni bir cüzdan oluşturabilir. Yeni bir cüzdan oluşturmak için aşağıdaki Oluştur düğmesini kullanın.\n\nYeni cüzdanı aşağıdaki paralar için kullanabileceksiniz: %@.\n\nVarsa, mevcut %@ Cüzdan anahtarını da kullanabilirsiniz. Bunun için Geri Yükle düğmesini kullanın.";
+"manage_coins.add_coin.create" = "Oluştur";
+"manage_coins.add_coin.restore" = "Geri Yükle";
+
+// Settings -> Experimental Features
+
+"settings.experimental_features.title" = "Deneysel";
+"settings.experimental_features.description" = "Aşağıdaki özellikler deneyseldir ve dikkatli kullanılmalıdır. Bu özellikleri kendi kripto fonlarımızı kullanarak baştan sona test etmemize rağmen, olası tüm durumlarda beklendiği gibi çalışmalarını garanti edemeyiz.";
+"settings.experimental_features.bitcoin_hodling" = "TimeLock";
+
+// Settings -> Experimental Features -> Bitcoin HODLing
+
+"settings.bitcoin_hodling.title" = "TimeLock";
+"settings.bitcoin_hodling.lock_time" = "Aktiveet";
+"settings.bitcoin_hodling.description" = "Belirtilen tarihe kadar harcanmamış Bitcoin'leri göndermenize olanak verir.\n\nBu tür bir işlemin alıcısı Unstoppable cüzdan kullanmalıdır.\n\nSadece Unstoppable cüzdan, Bitcoin ağındaki bu tür işlemleri doğru bir şekilde tanımlayabilir ve kilitleme süresi dolduktan sonra da alıcının bu Bitcoin'leri harcamasını sağlayabilir.\n\nEğer bir HODLer iseniz, kendinize böyle bir işlem göndererek, bu özelliği Bitcoin'lerinizi zarar etmeden uzun süre elinizde tutmaya zorlamak için kullanabilirsiniz.\n\nDeneysel bir özellik olduğundan, işlem başına maksimum tutar 0.5 BTC ile sınırlandırılmıştır.";
+
+// Settings -> About
+
+"settings_about.title" = "Hakkında";
+"settings_about.app_title" = "Waltonchain";
+"settings_about.app_subtitle" = "Decentralized Wallet";
+"settings_about.terms_privacy_subtitle" = "Şartlar & Gizlilik Politikası:";
+"settings_about.terms_privacy_text" = "Bu uygulama uçtan uca bir ağdır. Herhangi bir web sunucusuna veya teknik destek personeline bağlı değildir. \n\nİnternet olduğu sürece her yerde çalışır. Hiç kimse bu uygulamanın çalışmasını veya birisinin programı kullanmasını engelleyemez. \n\nCüzdanlarınız telefonda güvenli bir şekilde saklanır, başka bir yerde değil. \n\nGizli Anahtarınızı yedeklemek ve gizli tutmak sizin sorumluluğunuz. Asla kimseye göstermeyin. Kaybolursa, unutursanız veya çalınırsa cüzdanlarınız Gizli Anahtarınıza ele geçiren kişi tarafından kullanılabilir.\n\nTelefonunuzun yazılımını kırmayın, bilinmeyen (güvenilmeyen) kaynaklardan uygulamalar yüklemeyin, cihazınızı güvenmediğiniz kişilere vermeyin ve İşletim Sistemini telefonunuzda güncel tutun. Cüzdalarınızın güvenliği buna bağlı. \n\nBu uygulamayı oluşturan kodun tamamı, başından beri kamu denetimine açıktır. Yapabileceğimiz en güvenilir ve merkezi olmayan cüzdanı oluşturmaya çalıştık, yine de istenmeyen yazılım sorunu olmadığının garantisi yoktur. Bununla birlikte, bu cüzdanın herhangi bir akıllı telefon cüzdan uygulamasından çok daha güvenli olacağı muhtemel. \n\nDöviz kurları gibi kişisel olmayan uygulama verileri merkezi olmayan (IPFS) sisteminde depolanır. ";
+
+// Settings -> Tell Friends
+
+"settings_tell_friends.text" = "Waltonchain Wallet - kullanmanız gereken kripto para cüzdanı";
+
+// Settings -> Security
+
+"settings_security.title" = "Güvenlik Merkezi";
+"settings_security.manage_accounts" = "Cüzdanları yönet";
+"settings_security.passcode" = "Kod";
+"settings_security.change_pin" = "Kod Değiştir";
+"settings_security.touch_id" = "Touch ID";
+"settings_security.face_id" = "Face ID";
+"security_settings.delete_alert_button" = "Cihazdan sil";
+
+// Settings -> Contact
+
+"settings.contact.title" = "Iletişim";
+"settings.contact.app_status" = "Uygulama Durumu";
+"settings.contact.email" = "E-posta";
+"settings.contact.telegram_wallet" = "Telegram (Cüzdan Kullanım Yardımı)";
+"settings.contact.telegram_developers" = "Telegram (Developers)";
+
+// Manage Keys
+
+"settings_manage_keys.title" = "Cüzdanları yönet";
+"settings_manage_keys.item_title" = "%@ Cüzdanı";
+"settings_manage_keys.add_wallet" = "Cüzdan Ekle";
+"settings_manage_keys.description" = "Aşağıda vurgulanan, her cüzdanın farklı kripto para birimlerinden sorumlu olduğu aktif cüzdanlarınızdır.\n\nVurgulanan her cüzdanı, o cüzdanın özel anahtarını kesinlikte yedeklemelisiniz. Bu anahtar, telefonunuz kaybolur, çalınır yada kırılırsa, Kripto paranızı geri kazanmanın tek yoludur.";
+"settings_manage_keys.delete" = "Sil";
+"settings_manage_keys.backup" = "Yedekle";
+"settings_manage_keys.show" = "Göster";
+"settings_manage_keys.create" = "Oluştur";
+"settings_manage_keys.restore" = "Geri Yükle";
+"settings_manage_keys.delete.cant_delete" = "Bu cüzdanın özel anahtarını, bu telefondan silinmeden önce yedeklemeniz gerekir.";
+"settings_manage_keys.delete.title" = "Cüzdanı Sil";
+"settings_manage_keys.delete.confirmation_remove" = "Bu işlem %@ Cüzdanını bu cihazdan kaldıracak.";
+"settings_manage_keys.delete.confirmation_disable" = "Etkisizleştirilecek cüzdanlar: %@";
+"settings_manage_keys.delete.confirmation_loose" = "Bu cüzdanın özel anahtarını yedeklemediyseniz, fonlarınıza erişiminizi kaybedersiniz.";
+"error.cant_create_wallet" = "Uygulama henüz EOS cüzdanı oluşturamamaktadır. Sadece var olan cüzda geri yüklenebilir.";
+"error.invalid_eos_key" = "Geçersiz anahtar";
+"error.invalid_eos_account" = "Geçersiz hesap";
+
+// Set PIN
+
+"set_pin.title" = "Kod";
+"set_pin.info" = "Şifre, programı açmak ve para göndermek için kullanılacak";
+"set_pin.confirm.info" = "Onayla";
+"set_pin.wrong_confirmation" = "Şifre uyuşmadı. Tekrar deneyin";
+
+// Edit PIN
+
+"edit_pin.title" = "Kod Değiştir";
+"edit_pin.unlock_info" = "Şimdiki Kod";
+"edit_pin.new_pin_info" = "Yeni Kod";
+
+// Unlock PIN
+
+"unlock_pin.info" = "Kod";
+"unlock_pin.cant_save_pin" = "Eyvah! PİNninizi kaydetemiyoruz, acilen bizimle iletişime geçin!";
+"unlock_pin.blocked_until" = "Engellendi: %@";
+"rate_list.updated" = "güncellendi";
+
+//NumPad
+
+"numpad_2" = "A B C";
+"numpad_3" = "D E F";
+"numpad_4" = "G H I";
+"numpad_5" = "J K L";
+"numpad_6" = "M N O";
+"numpad_7" = "P Q R S";
+"numpad_8" = "T U V";
+"numpad_9" = "W X Y Z";
+
+// Key Types
+
+"chart.title" = "%@ Fiyat";
+"chart.time_duration.day" = "1G";
+"chart.time_duration.week" = "7G";
+"chart.time_duration.month" = "1A";
+"chart.time_duration.month3" = "3A";
+"chart.time_duration.halyear" = "6Ay";
+"chart.time_duration.year" = "1Yıl";
+"chart.time_duration.year2" = "2Yıl";
+
+"chart.market_cap" = "P. Değeri";
+"chart.market_cap.thousand" = "%@ k";
+"chart.market_cap.million" = "%@ M";
+"chart.market_cap.billion" = "%@ B";
+"chart.market_cap.trillion" = "%@ T";
+"chart.volume" = "Birim";
+"chart.circulation" = "Dolaşan Arz	";
+"chart.max_supply" = "Toplam Arz";
+"chart.error.not_available" = "Grafik yok";
+"chart.selected.price" = "Fiyat";
+"chart.selected.volume" = "Birim";
+
+// Create Wallet
+
+"create_wallet.title" = "Yeni Cüzdan";
+"create_wallet.create_button" = "Oluştur";
+
+// Select Coins
+
+"select_coins.choose_crypto" = "Kripto Parayi Seç";
+"select_coins.next_button" = "İleri";
+
+"price_notification.up" = "yukarı";
+"price_notification.down" = "aşağı";
+"price_notification.multi_title" = "Bildirimler";
+
+// Lock Info
+
+"lock_info.title" = "TimeLock";
+"lock_info.text" = "Gönderici bu fonları belirtilen tarihte sona erecek şekilde bir harcama kilidiyle gönderdi.\n\nEndişelenmeyin, alınan Bitcoin'ler zaten sizindir ancak kilitleme süresi sona erene kadar bunları Bitcoin ağında harcayamazsınız.";
+
+// Double Spend Info
+
+"double_spend_info.title" = "Çifte Harcama";
+"double_spend_info.header" = "Çifte Harcama Riski! Blockchain'de, bu işlemde kullanılan girdileri harcamaya çalışan başka bir işlem var. Ağ tarafından yalnızca bir işlem kabul edilecektir";
+"double_spend_info.this_hash" = "Bu Tx";
+"double_spend_info.conflicting_hash" = "Çakışan Tx";
