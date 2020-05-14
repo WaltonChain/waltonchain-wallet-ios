@@ -1,28 +1,26 @@
-# waltonchain-wallet-ios
-#  waltonchain ios wtc wta p2p dapp decentralized blockchain wallet
 
-Waltonchain Wallet
+# Waltonchain Wallet
 New Waltonchain decentralized mobile wallet for iOS. A safe and easy way to operate your mainnet WTC and WTA. 
 
-Download
+## Download
 https://app.waltonchain.org/app-h5/wtc_download
 
 
 
-Privacy Policy
+## Privacy Policy
 https://www.waltonchain.org/en/sys/cate/58.html
 
 
 
-Source Code
+## Source Code
 https://github.com/waltonchain/waltonchain-wallet-ios
 
 
 
-License
+## License
 This wallet is open source and available under the terms of the MIT License.
 
 
-Acknowledgement
+## Acknowledgement
 Based on Unstoppable Wallet by Horizontal Systems.
 
