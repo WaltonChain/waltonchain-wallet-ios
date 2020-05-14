@@ -1,5 +1,5 @@
 # waltonchain-wallet-ios
-# waltonchain android wtc wta p2p dapp decentralized blockchain wallet
+#  waltonchain ios wtc wta p2p dapp decentralized blockchain wallet
 
 Waltonchain Wallet
 New Waltonchain decentralized mobile wallet for iOS. A safe and easy way to operate your mainnet WTC and WTA. 
