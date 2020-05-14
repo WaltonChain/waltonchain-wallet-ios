@@ -22,5 +22,5 @@ This wallet is open source and available under the terms of the MIT License.
 
 
 ## Acknowledgement
-Based on Unstoppable Wallet by Horizontal Systems.
+Based on [Unstoppable Wallet](https://github.com/WaltonChain/waltonchain-wallet-ios) by [Horizontal Systems](https://github.com/horizontalsystems).
 
